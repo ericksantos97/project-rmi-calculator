@@ -19,7 +19,7 @@ public class CalculatorClient {
             String opcao[] = new String[]{"+", "-", "*", "/"};
 
             valor1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Entre com o primeiro valor"));
-            operacao = JOptionPane.showInputDialog(null, "Escolha uma das operacoes");
+            operacao = JOptionPane.showInputDialog(null, "Insira uma operação: + , - , / , *");
             valor2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Entre com o segundo valor"));
 
             switch (operacao) {
